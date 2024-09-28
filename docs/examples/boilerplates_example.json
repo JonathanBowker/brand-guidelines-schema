@@ -1,3 +1,12 @@
 {
-  "short_description": "An innovative brand offering..."
+  "verbal_identity": {
+    "boilerplates": {
+      "short_description": "EcoFriendly Co. provides sustainable, eco-friendly products designed to make green living simple and accessible.",
+      "long_description": "EcoFriendly Co. is a leader in sustainable products, offering a wide range of eco-friendly solutions for everyday living. From reusable bags to biodegradable packaging, our mission is to inspire individuals and businesses to adopt a greener lifestyle. Committed to quality and sustainability, we strive to make a positive impact on the environment by providing innovative products that reduce waste and promote a healthier planet.",
+      "press_release_boilerplate": "Founded in 2020, EcoFriendly Co. is dedicated to making sustainability accessible and practical for everyone. As a provider of high-quality, eco-friendly products, our goal is to inspire positive change by offering solutions that reduce waste and encourage a more sustainable lifestyle. For more information, visit www.ecofriendlyco.com.",
+      "product_or_service_description": "Our range of sustainable products includes reusable bags, biodegradable packaging, and eco-friendly household items – all designed to help reduce waste and promote a greener lifestyle.",
+      "about_us_statement": "At EcoFriendly Co., we believe in the power of small changes to make a big impact. That’s why we’re committed to providing sustainable, eco-friendly products that help individuals and businesses lead greener lives. By choosing EcoFriendly Co., you’re joining a movement towards a healthier, more sustainable future.",
+      "media_kit_description": "EcoFriendly Co. is a sustainable brand committed to providing eco-friendly products for everyday use. Our mission is to make green living easy and accessible, offering high-quality products that inspire individuals and businesses to reduce waste and embrace sustainability. With a focus on innovation and quality, we aim to be a trusted partner in your journey towards a more eco-conscious lifestyle."
+    }
+  }
 }

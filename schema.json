@@ -1,6 +1,310 @@
 {
-  "brand_information": {
-    "brand_name": "string",
-    "brand_overview": "string"
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Brand Guidelines Schema",
+  "description": "A standardised schema for defining and organising brand guidelines.",
+  "type": "object",
+  "properties": {
+    "brand_information": {
+      "type": "object",
+      "description": "Basic information about the brand.",
+      "properties": {
+        "brand_name": {
+          "type": "string",
+          "description": "The official name of the brand."
+        },
+        "brand_overview": {
+          "type": "string",
+          "description": "A brief description of the brand."
+        },
+        "industry": {
+          "type": "string",
+          "description": "The industry in which the brand operates."
+        },
+        "website": {
+          "type": "string",
+          "description": "The official website URL of the brand."
+        },
+        "contact_information": {
+          "type": "object",
+          "description": "Contact details for the brand.",
+          "properties": {
+            "email": {
+              "type": "string",
+              "description": "Contact email address."
+            },
+            "phone": {
+              "type": "string",
+              "description": "Contact phone number."
+            },
+            "address": {
+              "type": "string",
+              "description": "Physical address of the brand."
+            }
+          }
+        }
+      },
+      "required": ["brand_name"]
+    },
+    "strategy": {
+      "type": "object",
+      "description": "The core strategic elements of the brand.",
+      "properties": {
+        "mission_statement": {
+          "type": "string",
+          "description": "The brand's mission statement."
+        },
+        "vision_statement": {
+          "type": "string",
+          "description": "The brand's vision statement."
+        },
+        "values": {
+          "type": "array",
+          "description": "A list of core values that define the brand.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "brand_personality": {
+          "type": "array",
+          "description": "Adjectives that describe the brand's personality.",
+          "items": {
+            "type": "string"
+          }
+        },
+        "target_audience": {
+          "type": "object",
+          "description": "Details about the brand's target audience.",
+          "properties": {
+            "primary_audience": {
+              "type": "object",
+              "description": "Information about the primary target audience.",
+              "properties": {
+                "description": {
+                  "type": "string"
+                },
+                "age_range": {
+                  "type": "string"
+                },
+                "gender": {
+                  "type": "string"
+                },
+                "location": {
+                  "type": "string"
+                },
+                "interests": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "secondary_audience": {
+              "type": "object",
+              "description": "Information about the secondary target audience.",
+              "properties": {
+                "description": {
+                  "type": "string"
+                },
+                "age_range": {
+                  "type": "string"
+                },
+                "gender": {
+                  "type": "string"
+                },
+                "location": {
+                  "type": "string"
+                },
+                "interests": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "market_positioning": {
+          "type": "object",
+          "description": "How the brand is positioned in the market.",
+          "properties": {
+            "competitive_advantage": {
+              "type": "string"
+            },
+            "brand_positioning_statement": {
+              "type": "string"
+            },
+            "tagline": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "verbal_identity": {
+      "type": "object",
+      "description": "Guidelines for the brand's tone of voice and messaging.",
+      "properties": {
+        "tone_of_voice": {
+          "type": "object",
+          "description": "Details about the brand's tone of voice.",
+          "properties": {
+            "description": {
+              "type": "string"
+            },
+            "attributes": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "do_s": {
+              "type": "array",
+              "description": "Examples of what to do to maintain the tone of voice.",
+              "items": {
+                "type": "string"
+              }
+            },
+            "dont_s": {
+              "type": "array",
+              "description": "Examples of what not to do with the tone of voice.",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "messaging_framework": {
+          "type": "object",
+          "description": "Key messaging elements of the brand.",
+          "properties": {
+            "key_messages": {
+              "type": "object",
+              "properties": {
+                "brand_promise": {
+                  "type": "string"
+                },
+                "value_propositions": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                },
+                "key_features": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "elevator_pitch": {
+              "type": "string"
+            },
+            "sample_messages": {
+              "type": "object",
+              "properties": {
+                "social_media": {
+                  "type": "string"
+                },
+                "email": {
+                  "type": "string"
+                },
+                "ad_copy": {
+                  "type": "string"
+                },
+                "website": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "vocabulary_guidelines": {
+          "type": "object",
+          "description": "Guidelines for preferred and avoided words.",
+          "properties": {
+            "preferred_words": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "words_to_avoid": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            },
+            "grammar_and_style": {
+              "type": "string"
+            }
+          }
+        },
+        "boilerplates": {
+          "type": "object",
+          "description": "Predefined brand statements.",
+          "properties": {
+            "short_description": {
+              "type": "string"
+            },
+            "long_description": {
+              "type": "string"
+            },
+            "press_release_boilerplate": {
+              "type": "string"
+            },
+            "product_or_service_description": {
+              "type": "string"
+            },
+            "about_us_statement": {
+              "type": "string"
+            },
+            "media_kit_description": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    },
+    "visual_identity": {
+      "type": "object",
+      "description": "Guidelines for the brand's visual elements.",
+      "properties": {
+        "logo": {
+          "type": "object",
+          "properties": {
+            "primary_logo": {
+              "type": "string",
+              "description": "URL or path to the primary logo."
+            },
+            "usage_guidelines": {
+              "type": "string",
+              "description": "Guidelines for logo usage."
+            }
+          }
+        },
+        "color_palette": {
+          "type": "object",
+          "properties": {
+            "primary_colors": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  },
+                  "hex": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
   }
 }

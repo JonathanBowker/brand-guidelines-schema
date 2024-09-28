@@ -1,4 +1,59 @@
 {
-  "brand_name": "Example Brand",
-  "mission_statement": "To inspire creativity..."
+  "brand_information": {
+    "brand_name": "EcoFriendly Co.",
+    "brand_overview": "EcoFriendly Co. provides sustainable, eco-friendly products for everyday living.",
+    "website": "https://www.ecofriendlyco.com"
+  },
+  "strategy": {
+    "mission_statement": "To inspire sustainable living.",
+    "vision_statement": "A greener future for all.",
+    "values": ["Sustainability", "Innovation"],
+    "brand_personality": ["Friendly", "Reliable"],
+    "target_audience": {
+      "primary_audience": {
+        "description": "Environmentally conscious individuals.",
+        "age_range": "25-45",
+        "location": "Urban areas"
+      }
+    },
+    "market_positioning": {
+      "tagline": "Sustainable Living Made Easy"
+    }
+  },
+  "verbal_identity": {
+    "tone_of_voice": {
+      "description": "Friendly and informative.",
+      "do_s": ["Use positive language", "Be encouraging"],
+      "dont_s": ["Avoid negativity"]
+    },
+    "boilerplates": {
+      "short_description": "EcoFriendly Co. offers sustainable products for everyday living."
+    }
+  },
+  "visual_identity": {
+    "logo": {
+      "primary_logo": "https://www.ecofriendlyco.com/logo.png"
+    },
+    "color_palette": {
+      "primary_colors": [
+        {
+          "name": "Eco Green",
+          "hex": "#34A853"
+        }
+      ]
+    },
+    "typography": {
+      "primary_font": {
+        "name": "Roboto",
+        "style": "Sans-serif"
+      }
+    }
+  },
+  "application": {
+    "digital": {
+      "website": {
+        "design_guidelines": "Maintain a clean and eco-friendly design."
+      }
+    }
+  }
 }
