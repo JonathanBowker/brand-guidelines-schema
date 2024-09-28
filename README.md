@@ -264,3 +264,154 @@ The updated structure ensures that LinkedIn-specific guidelines, including **foo
 - **Provide Value**: For LinkedIn articles, make sure the content is informative and offers valuable insights to your audience.
 
 By incorporating these LinkedIn elements into your BrandoLang schema, you ensure that your brand maintains a consistent and professional presence on LinkedIn, capturing the attention of your target audience.
+
+Here’s the **BrandoLang Taxonomy Overview** page adapted into British English, inspired by the FidesLang taxonomy guide. This version focuses on how BrandoLang organises and categorises the various elements of brand guidelines, ensuring consistency, clarity, and ease of implementation across different touchpoints.
+
+---
+
+# **BrandoLang Taxonomy Overview**
+
+## **Introduction to the BrandoLang Taxonomy**
+
+The **BrandoLang Taxonomy** provides a comprehensive and structured way to define, manage, and implement brand guidelines across all content, design, and communication channels. It offers a **standardised vocabulary** for describing the various aspects of a brand's **Strategy, Visual Identity, Verbal Identity, Application**, and **AI Generator Guidelines**. This taxonomy ensures that everyone—whether human creators or AI systems—has a consistent understanding of the brand's requirements.
+
+BrandoLang's taxonomy is designed to be **flexible, hierarchical**, and **extensible**, allowing brands to define elements at different levels of detail and adapt as their brand evolves.
+
+## **Why Use the BrandoLang Taxonomy?**
+
+The BrandoLang Taxonomy serves as the **foundation** for defining and enforcing your brand guidelines. It enables:
+
+- **Consistency**: Ensures all brand-related elements are structured and communicated uniformly.
+- **Scalability**: Provides a system that can grow with your brand, allowing you to add new categories, elements, or guidelines as needed.
+- **Interoperability**: Ensures that your brand guidelines can be integrated with various content creation tools, AI systems, and design software.
+
+## **The Structure of the BrandoLang Taxonomy**
+
+The BrandoLang Taxonomy is divided into five core categories:
+
+### 1. **Strategy**
+This category covers the fundamental aspects of your brand’s identity, including the **mission, vision, values, positioning**, and **messaging frameworks**. It defines how your brand wants to be perceived in the market and what it stands for.
+
+| **Field**        | **Type**           | **Description**                                               |
+|------------------|--------------------|-------------------------------------------------------------|
+| `mission`        | String             | The brand's overarching purpose and goals.                   |
+| `vision`         | String             | The long-term aspirations of the brand.                      |
+| `values`         | Array of Strings   | The core principles that guide the brand's actions.          |
+| `positioning`    | Object             | How the brand differentiates itself in the market.           |
+| `messaging_framework` | Object        | Guidelines for the brand’s key messages, taglines, and storytelling. |
+
+### 2. **Visual Identity**
+Visual Identity focuses on how the brand appears across different platforms, including **logos, colours, typography**, and **imagery styles**. This section ensures a cohesive visual representation of the brand.
+
+| **Field**       | **Type**          | **Description**                                             |
+|-----------------|-------------------|-----------------------------------------------------------|
+| `logo`          | Object            | Guidelines for logo usage, including variations and placement. |
+| `colours`       | Object            | The official colour palette with hex codes and RGB values. |
+| `typography`    | Object            | Fonts, sizes, and styles for headings and body text.       |
+| `imagery`       | Object            | Photography and graphic styles that represent the brand.   |
+
+### 3. **Verbal Identity**
+Verbal Identity encompasses the brand's **tone of voice, vocabulary, boilerplate copy**, and **storytelling guidelines**. It ensures that the brand's personality is communicated consistently in all written and verbal communications.
+
+| **Field**             | **Type**          | **Description**                                            |
+|-----------------------|-------------------|----------------------------------------------------------|
+| `tone_of_voice`       | Object            | Descriptors and examples of how the brand speaks.        |
+| `key_vocabulary`      | Object            | Preferred and prohibited terms.                          |
+| `boilerplate_copy`    | Object            | Standardised text for use in specific contexts, such as "About Us" sections. |
+| `storytelling_guidelines` | Object       | Principles for how the brand tells its story.            |
+
+### 4. **Application**
+The Application category defines how brand elements are used across different channels, including **social media, marketing materials, internal communications**, and more. It ensures that the brand is applied consistently, no matter where it appears.
+
+| **Field**                  | **Type**         | **Description**                                            |
+|----------------------------|------------------|----------------------------------------------------------|
+| `social_media`             | Object           | Guidelines for applying the brand on social media platforms like LinkedIn, Twitter, Instagram, etc. |
+| `marketing_materials`      | Object           | Instructions for applying brand elements in brochures, flyers, and adverts. |
+| `digital_platforms`        | Object           | Guidelines for web, app interfaces, and other digital media. |
+| `internal_communications`  | Object           | Templates and styles for internal emails and documents.   |
+
+### 5. **AI Generator Guidelines**
+This section provides rules for AI-generated content, ensuring that any content produced by AI tools aligns with the brand's identity. It includes **prompt templates, quality assurance checks**, and **validation rules**.
+
+| **Field**                  | **Type**         | **Description**                                            |
+|----------------------------|------------------|----------------------------------------------------------|
+| `prompt_templates`         | Object           | Predefined prompts for generating brand-compliant content.|
+| `quality_assurance`        | Object           | Rules for ensuring that AI-generated content meets brand standards.|
+| `visual_rules`             | Object           | Guidelines for AI-generated imagery, including colour usage and logo placement.|
+
+## **Extending the BrandoLang Taxonomy**
+
+BrandoLang is designed to be **extensible**, meaning you can add new categories, elements, or rules as your brand evolves. For example:
+
+- If your brand develops a unique packaging style, you can add a `packaging` category under the `application` section.
+- You might want to add an additional **content type** under Verbal Identity for **press releases** or **podcast scripts**.
+
+This flexibility ensures that your brand guidelines remain relevant and comprehensive as your brand grows and adapts to new opportunities.
+
+## **Interoperability and Integration**
+
+The BrandoLang Taxonomy can be integrated with various content creation and management systems, AI tools, and design software, ensuring seamless enforcement of brand guidelines across your organisation.
+
+- **Formats**: BrandoLang supports **JSON** and **YAML**, making it easy to work with across different tools.
+- **Integration**: You can integrate BrandoLang with tools like **Adobe XD**, **Figma**, **content management systems**, and **AI content generators** to ensure consistent brand representation.
+
+## **How to Use the BrandoLang Taxonomy**
+
+1. **Define Your Guidelines**: Start by populating the BrandoLang taxonomy with your brand's specific elements, from mission and values to colour codes and tone of voice.
+2. **Implement in Your Workflow**: Integrate BrandoLang with your existing workflows to ensure all brand-related content adheres to the guidelines.
+3. **Adapt and Evolve**: As your brand grows, update the BrandoLang taxonomy to reflect any changes or new elements.
+
+## **Examples of the BrandoLang Taxonomy in Action**
+
+Here’s how the taxonomy might look when applied to different brand elements:
+
+#### **Strategy Example (YAML Format)**
+```yaml
+strategy:
+  mission: "To empower individuals to lead a sustainable lifestyle."
+  vision: "To be the global leader in eco-friendly solutions."
+  values:
+    - "Sustainability"
+    - "Innovation"
+    - "Transparency"
+  positioning:
+    statement: "We are the leading provider of high-quality, eco-friendly products."
+    3Cs:
+      company:
+        strengths: ["Innovative design", "Eco-friendly materials"]
+      customers:
+        target_audience: ["Eco-conscious consumers"]
+      competitors:
+        main_competitors: ["Green Living Co.", "EcoStyle"]
+```
+
+#### **Visual Identity Example (JSON Format)**
+```json
+{
+  "visual_identity": {
+    "logo": {
+      "primary_logo": {
+        "file_url": "https://s3.amazonaws.com/brand-assets/logo-primary.png",
+        "clear_space": "10px around the logo"
+      }
+    },
+    "colours": {
+      "primary": {
+        "name": "Eco Green",
+        "hex_code": "#34A853",
+        "rgb": "52, 168, 83"
+      },
+      "secondary": {
+        "name": "Earth Brown",
+        "hex_code": "#8D6E63",
+        "rgb": "141, 110, 99"
+      }
+    }
+  }
+}
+```
+
+## **Final Thoughts**
+
+The BrandoLang Taxonomy is a powerful tool for maintaining a consistent and cohesive brand identity across all channels and content types. Its structured, hierarchical approach makes it easy to define and enforce brand guidelines, ensuring that every piece of content—whether created by humans or AI—aligns with your brand’s values, tone, and visual identity.
+
