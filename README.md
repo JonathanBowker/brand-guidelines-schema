@@ -105,6 +105,3 @@ BrandoLang allows for **versioning**, meaning you can track changes to your bran
 
 By using BrandoLang, you can ensure that your brand's identity is **consistent, cohesive, and adaptable** across every touchpoint, whether it's human-created or AI-generated content.
 
---- 
-
-This introduction captures the essence of BrandoLang by adapting the core concepts from FidesLang to suit the context of branding and brand guidelines management. It explains why BrandoLang is necessary, how it works, and how it can be applied to maintain brand consistency and integrity.
