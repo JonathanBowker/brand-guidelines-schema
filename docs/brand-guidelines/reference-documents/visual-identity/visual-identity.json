@@ -1,0 +1,10 @@
+{
+    "id": "visual-identity",
+    "title": "Visual Identity Guidelines",
+    "primary_colours": {
+        "Eco Green": "#34A853",
+        "Earth Brown": "#8D6E63"
+    },
+    "typography": "Use 'Roboto' for headings and body text.",
+    "logo_usage": "Place the logo in the bottom-right corner with clear space around it."
+}

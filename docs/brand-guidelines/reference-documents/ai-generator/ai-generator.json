@@ -1,0 +1,9 @@
+{
+    "id": "ai-generator-guidelines",
+    "title": "AI Generator Guidelines",
+    "prompt_templates": {
+        "text_generation": "Write an [adjective] [noun] that promotes our [product/service] using a [tone] tone.",
+        "image_generation": "Create an image of [product] using [brand colours] and [logo placement]."
+    },
+    "quality_assurance": "Ensure all AI-generated content adheres to brand tone, colour palette, and messaging."
+}
