@@ -105,3 +105,162 @@ BrandoLang allows for **versioning**, meaning you can track changes to your bran
 
 By using BrandoLang, you can ensure that your brand's identity is **consistent, cohesive, and adaptable** across every touchpoint, whether it's human-created or AI-generated content.
 
+
+
+Here's the updated **BrandoLang Syntax Guide** with the addition of `footer_image` details for LinkedIn articles under the **visual elements** section.
+
+---
+
+# **BrandoLang Syntax Guide**
+
+## **Introduction to BrandoLang Syntax**
+
+BrandoLang is a **structured and adaptable language** for defining brand guidelines, allowing brands to maintain consistency across all touchpoints, including **LinkedIn posts and articles**. It uses a hierarchical structure, supporting both **JSON** and **YAML** formats for easy integration with different systems.
+
+## **Core Elements of BrandoLang Syntax**
+
+The key components of BrandoLang syntax include **Strategy, Visual Identity, Verbal Identity, Application**, and **AI Generator Guidelines**. This guide will now include **LinkedIn-specific guidelines**.
+
+### **Supported Formats**
+
+BrandoLang can be expressed in both **JSON** and **YAML** formats. Here’s how LinkedIn-related elements are incorporated into the syntax, including the newly added **footer image** field.
+
+#### **JSON Example (Including LinkedIn Posts and Articles with Footer Image)**
+```json
+{
+  "application": {
+    "social_media": {
+      "linkedin": {
+        "posts": {
+          "tone": "Professional, yet approachable",
+          "frequency": "2-3 times per week",
+          "image_guidelines": {
+            "aspect_ratio": "1200x627",
+            "logo_usage": "Place logo in the bottom-right corner"
+          },
+          "content_tips": [
+            "Include a question to encourage engagement",
+            "Use hashtags related to sustainability and innovation"
+          ]
+        },
+        "articles": {
+          "tone": "Authoritative and insightful",
+          "recommended_length": "800-1500 words",
+          "structure": ["Introduction", "Key insights", "Case studies/examples", "Conclusion"],
+          "visual_elements": {
+            "header_image": {
+              "required": true,
+              "aspect_ratio": "1280x720"
+            },
+            "infographics": {
+              "usage": "Include data-driven visuals to support key points"
+            },
+            "footer_image": {
+              "required": true,
+              "aspect_ratio": "1280x300"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+```
+
+#### **YAML Example (Including LinkedIn Posts and Articles with Footer Image)**
+```yaml
+application:
+  social_media:
+    linkedin:
+      posts:
+        tone: "Professional, yet approachable"
+        frequency: "2-3 times per week"
+        image_guidelines:
+          aspect_ratio: "1200x627"
+          logo_usage: "Place logo in the bottom-right corner"
+        content_tips:
+          - "Include a question to encourage engagement"
+          - "Use hashtags related to sustainability and innovation"
+      articles:
+        tone: "Authoritative and insightful"
+        recommended_length: "800-1500 words"
+        structure:
+          - "Introduction"
+          - "Key insights"
+          - "Case studies/examples"
+          - "Conclusion"
+        visual_elements:
+          header_image:
+            required: true
+            aspect_ratio: "1280x720"
+          infographics:
+            usage: "Include data-driven visuals to support key points"
+          footer_image:
+            required: true
+            aspect_ratio: "1280x300"
+```
+
+## **Syntax Details for LinkedIn in Each BrandoLang Component**
+
+### **1. Application (Social Media: LinkedIn)**
+
+The `application` section now includes detailed guidelines for **LinkedIn posts and articles**, with a focus on how to handle **footer images**.
+
+| **Key**                              | **Parent Key**              | **Type**          | **Description**                                             |
+|--------------------------------------|-----------------------------|-------------------|-----------------------------------------------------------|
+| `social_media`                       | application                 | Object            | Guidelines for all social media channels.                 |
+| `linkedin`                           | social_media                | Object            | Specific guidelines for LinkedIn posts and articles.      |
+| `posts`                              | linkedin                    | Object            | Rules for creating LinkedIn posts.                        |
+| `posts.tone`                         | posts                       | String            | The tone to use for LinkedIn posts.                       |
+| `posts.frequency`                    | posts                       | String            | Recommended posting frequency for LinkedIn.               |
+| `posts.image_guidelines`             | posts                       | Object            | Visual guidelines for images used in LinkedIn posts.      |
+| `posts.image_guidelines.aspect_ratio`| image_guidelines            | String            | Required aspect ratio for LinkedIn post images.           |
+| `posts.image_guidelines.logo_usage`  | image_guidelines            | String            | Instructions for logo placement in LinkedIn post images.  |
+| `posts.content_tips`                 | posts                       | Array of Strings  | Tips for creating engaging LinkedIn post content.         |
+| `articles`                           | linkedin                    | Object            | Guidelines for writing LinkedIn articles.                 |
+| `articles.tone`                      | articles                    | String            | The tone to use for LinkedIn articles.                    |
+| `articles.recommended_length`        | articles                    | String/Number     | Suggested word count for LinkedIn articles.               |
+| `articles.structure`                 | articles                    | Array of Strings  | Recommended structure for LinkedIn articles.              |
+| `articles.visual_elements`           | articles                    | Object            | Visual guidelines for images used in articles.            |
+| `articles.visual_elements.header_image.required` | visual_elements | Boolean | Whether a header image is required for LinkedIn articles. |
+| `articles.visual_elements.header_image.aspect_ratio` | visual_elements | String | Aspect ratio for header images.                           |
+| `articles.visual_elements.infographics.usage` | visual_elements   | String            | Instructions for using infographics in LinkedIn articles. |
+| `articles.visual_elements.footer_image.required` | visual_elements | Boolean | Whether a footer image is required for LinkedIn articles. |
+| `articles.visual_elements.footer_image.aspect_ratio` | visual_elements | String | Aspect ratio for footer images.                           |
+
+### **2. AI Generator Guidelines for LinkedIn**
+
+The `ai_generator` section can include prompt templates specifically for generating **LinkedIn posts and articles**, ensuring AI-generated content adheres to the brand’s visual and verbal guidelines, including details about footer images.
+
+| **Key**                        | **Parent Key**        | **Type**          | **Description**                                             |
+|---------------------------------|-----------------------|-------------------|-----------------------------------------------------------|
+| `prompt_templates`              | ai_generator          | Object            | Templates for generating branded content.                 |
+| `linkedin_post`                 | prompt_templates      | Object            | Template for generating LinkedIn posts.                   |
+| `linkedin_post.tone`            | linkedin_post         | String            | Tone to be used for LinkedIn post prompts.                |
+| `linkedin_post.prompt_example`  | linkedin_post         | String            | Example prompt for AI to generate a LinkedIn post.        |
+| `linkedin_article`              | prompt_templates      | Object            | Template for generating LinkedIn articles.                |
+| `linkedin_article.tone`         | linkedin_article      | String            | Tone to be used for LinkedIn article prompts.             |
+| `linkedin_article.prompt_example` | linkedin_article    | String            | Example prompt for AI to generate a LinkedIn article.     |
+
+#### Example (YAML for AI Generator Guidelines)
+```yaml
+ai_generator:
+  prompt_templates:
+    linkedin_post:
+      tone: "Professional, yet approachable"
+      prompt_example: "Write a LinkedIn post about our recent sustainability achievement, emphasizing the positive impact we've had on the environment."
+    linkedin_article:
+      tone: "Authoritative and insightful"
+      prompt_example: "Create a LinkedIn article that explores the benefits of eco-friendly packaging, providing data-driven insights and examples. Include suggestions for header and footer images."
+```
+
+## **Using BrandoLang Syntax for LinkedIn Content**
+
+The updated structure ensures that LinkedIn-specific guidelines, including **footer images**, are clear and actionable for both human creators and AI systems. This makes it possible to maintain brand consistency across all LinkedIn content.
+
+### **Best Practices for LinkedIn Content with BrandoLang**
+- **Use the Footer Image**: Include a footer image in your LinkedIn articles as specified, ensuring it matches the required aspect ratio (e.g., 1280x300).
+- **Visual Consistency**: Ensure header and footer images are cohesive and reinforce the brand’s visual identity.
+- **Provide Value**: For LinkedIn articles, make sure the content is informative and offers valuable insights to your audience.
+
+By incorporating these LinkedIn elements into your BrandoLang schema, you ensure that your brand maintains a consistent and professional presence on LinkedIn, capturing the attention of your target audience.
