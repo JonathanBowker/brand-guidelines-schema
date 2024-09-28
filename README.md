@@ -9,7 +9,7 @@ By providing a unified framework, BrandoLang simplifies the process of defining 
 Brand management is a complex process that involves various elements, from visual design to tone of voice, across multiple platforms. This complexity is compounded when different teams, departments, or external partners work on brand-related tasks, leading to inconsistencies and misinterpretations.
 
 BrandoLang addresses these challenges by offering:
-- A **standardized ontology** for brand guidelines.
+- A **standardised ontology** for brand guidelines.
 - A **machine-readable** format that ensures brand rules are enforced in AI-generated content.
 - An easy-to-understand language that makes brand guidelines **accessible** to all stakeholders, from designers to copywriters and developers.
 
@@ -18,7 +18,7 @@ BrandoLang addresses these challenges by offering:
 BrandoLang is built around five key components, each representing a crucial aspect of brand identity:
 
 ### 1. **Strategy**
-The Strategy component defines the brand's **mission, vision, values, positioning**, and **messaging frameworks**. It includes elements such as the **3Cs** (Company, Customers, Competitors), ensuring that brand positioning is aligned with the organization's strengths, customer needs, and market differentiation.
+The Strategy component defines the brand's **mission, vision, values, positioning**, and **messaging frameworks**. It includes elements such as the **3Cs** (Company, Customers, Competitors), ensuring that brand positioning is aligned with the organisation's strengths, customer needs, and market differentiation.
 
 - **Mission**: The overarching purpose of the brand.
 - **Vision**: The long-term aspirations and goals.
@@ -26,7 +26,7 @@ The Strategy component defines the brand's **mission, vision, values, positionin
 - **Positioning**: How the brand wants to be perceived in the market.
 
 ### 2. **Visual Identity**
-Visual Identity covers all aspects of how the brand looks across different platforms, including **logos, color palettes, typography**, and **imagery styles**. This ensures visual consistency and recognizability across all touchpoints.
+Visual Identity covers all aspects of how the brand looks across different platforms, including **logos, color palettes, typography**, and **imagery styles**. This ensures visual consistency and recognisability across all touchpoints.
 
 - **Logos**: Guidelines for using primary, secondary, and monochrome logos.
 - **Colors**: Approved color palettes with hex codes, RGB values, and usage contexts.
@@ -59,17 +59,17 @@ As more brands leverage AI for content creation, ensuring that these systems adh
 BrandoLang is designed to be both **human-readable** and **machine-readable**, allowing seamless integration into your brand management workflows. Here’s how it can be used:
 
 ### 1. **Define Your Brand Guidelines**
-Brand managers, designers, and copywriters can use BrandoLang to define every aspect of the brand, from the tone of voice to logo usage rules. These definitions are stored in a structured format (e.g., **JSON** or **YAML**), making it easy to share and implement across your organization.
+Brand managers, designers, and copywriters can use BrandoLang to define every aspect of the brand, from the tone of voice to logo usage rules. These definitions are stored in a structured format (e.g., **JSON** or **YAML**), making it easy to share and implement across your organisation.
 
 ### 2. **Generate BrandoLang Index and Reference Documents**
-BrandoLang is composed of an **index document** that references multiple **detailed documents** covering each aspect of the brand. This structure ensures that all guidelines are organized, accessible, and easy to update.
+BrandoLang is composed of an **index document** that references multiple **detailed documents** covering each aspect of the brand. This structure ensures that all guidelines are organised, accessible, and easy to update.
 
 ### 3. **Integrate with AI Systems and Design Tools**
 BrandoLang can be integrated with **AI content generators**, **design software**, and **content management systems** to ensure that all content adheres to your brand guidelines automatically. For example, when an AI generates a social media post, it will reference BrandoLang to ensure the tone, imagery, and messaging align with the brand.
 
 ## **Taxonomy Structure**
 
-BrandoLang uses a **hierarchical taxonomy** to categorize brand elements, making it adaptable to various levels of complexity. This taxonomy allows you to define brand elements broadly or in granular detail:
+BrandoLang uses a **hierarchical taxonomy** to categorise brand elements, making it adaptable to various levels of complexity. This taxonomy allows you to define brand elements broadly or in granular detail:
 
 | **Category**       | **Description**                                        |
 |--------------------|--------------------------------------------------------|
@@ -81,7 +81,7 @@ BrandoLang uses a **hierarchical taxonomy** to categorize brand elements, making
 
 ## **Extending BrandoLang**
 
-Just like FidesLang, BrandoLang is **extensible**. Brands can add new elements, attributes, or categories to capture any unique aspects of their identity. This means that as your brand evolves, so can your BrandoLang guidelines.
+BrandoLang is **extensible**. Brands can add new elements, attributes, or categories to capture any unique aspects of their identity. This means that as your brand evolves, so can your BrandoLang guidelines.
 
 ## **Interoperability and Integration**
 
@@ -94,7 +94,7 @@ BrandoLang allows for **versioning**, meaning you can track changes to your bran
 
 ## **Getting Started with BrandoLang**
 
-1. **Explore the Taxonomy**: Familiarize yourself with the core categories of BrandoLang.
+1. **Explore the Taxonomy**: Familiarise yourself with the core categories of BrandoLang.
 2. **Define Your Brand Guidelines**: Use the structured format to capture every aspect of your brand identity.
 3. **Integrate with Your Workflow**: Connect BrandoLang with your content creation and design tools to ensure brand consistency.
 
