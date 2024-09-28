@@ -1,0 +1,3 @@
+# Contributing to BGS
+
+We welcome contributions to improve and expand...

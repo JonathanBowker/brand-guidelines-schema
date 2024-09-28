@@ -1,0 +1,3 @@
+# Visual Identity
+
+Details about the brand's logo, color palette, and typography...

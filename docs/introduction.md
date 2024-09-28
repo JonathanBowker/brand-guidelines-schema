@@ -1,0 +1,3 @@
+# Introduction
+
+The Brand Guidelines Schema (BGS) provides...
