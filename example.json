@@ -1,0 +1,272 @@
+{
+  "brand_strategy": {
+    "mission": {
+      "description": "The brand's overarching purpose, defining why it exists and what it aims to achieve.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/brand_strategy/mission.json"
+    },
+    "vision": {
+      "description": "The long-term goals and aspirations that the brand strives to accomplish in the future.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/brand_strategy/vision.json"
+    },
+    "values": {
+      "description": "The core principles and beliefs that guide the brand's actions, decisions, and messaging.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/brand_strategy/values.json"
+    },
+    "positioning": {
+      "description": "The brand's positioning in the market, including how it differentiates itself from competitors.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/brand_strategy/positioning.json"
+    },
+    "brand_personality": {
+      "description": "Characteristics that describe the brand as if it were a person, such as traits like 'friendly.'",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/brand_strategy/brand_personality.json"
+    },
+    "brand_promise": {
+      "description": "A concise statement that captures the brand's commitment to its customers and what they can expect.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/brand_strategy/brand_promise.json"
+    },
+    "target_audience": {
+      "description": "Details about the primary and secondary audiences, including demographics and psychographics.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/brand_strategy/target_audience.json"
+    },
+    "brand_story": {
+      "description": "The narrative that captures the brand’s history, evolution, and the journey that shaped its identity.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/brand_strategy/brand_story.json"
+    },
+    "unique_selling_proposition": {
+      "description": "A statement that highlights the brand's USP benefits and why it's different from competitors.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/brand_strategy/unique_selling_proposition.json"
+    },
+    "brand_tone_and_voice": {
+      "description": "An overview of how the brand communicates, including tone descriptors and examples.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/brand_strategy/brand_tone_and_voice.json"
+    },
+    "brand_architecture": {
+      "description": "The structure of how the brand’s products, sub-brands, or services relate to each other.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/brand_strategy/brand_architecture.json"
+    },
+    "competitive_analysis": {
+      "description": "Insights into competitors, including their strengths, weaknesses, and market position.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/brand_strategy/competitive_analysis.json"
+    },
+    "compliance": {
+      "description": "Guidelines ensuring the brand's alignment with legal, ethical, regulatory, and industry standards.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/brand_strategy/compliance.json"
+    },
+    "customer_insights": {
+      "description": "Research about customer preferences, needs, pain points, and behaviours.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/brand_strategy/customer_insights.json"
+    },
+    "company_analysis": {
+      "description": "An in-depth analysis of the company's strengths, weaknesses, opportunities, and unique capabilities.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/brand_strategy/company_analysis.json"
+    },
+    "brand_goals_and_objectives": {
+      "description": "Short-term and long-term goals that the brand aims to achieve, including measurable KPIs.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/brand_strategy/brand_goals_and_objectives.json"
+    },
+    "brand_tagline": {
+      "description": "A concise, memorable phrase that encapsulates the essence of the brand's message.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/brand_strategy/brand_tagline.json"
+    },
+    "market_analysis": {
+      "description": "An overview of the brand’s market landscape, including trends, opportunities, and threats.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/brand_strategy/market_analysis.json"
+    },
+    "value_proposition": {
+      "description": "A clear explanation of the benefits and value the brand offers to its customers.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/brand_strategy/value_proposition.json"
+    },
+    "brand_experience": {
+      "description": "Guidelines on how the brand should be experienced across different touchpoints.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/brand_strategy/brand_experience.json"
+    },
+    "emotional_benefits": {
+      "description": "The emotional advantages or feelings that customers should associate with the brand.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/brand_strategy/emotional_benefits.json"
+    },
+    "functional_benefits": {
+      "description": "The practical and tangible benefits that the brand offers to its customers.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/brand_strategy/functional_benefits.json"
+    },
+    "key_messages": {
+      "description": "The main points or messages that the brand wants to communicate consistently.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/brand_strategy/key_messages.json"
+    }
+  },
+  "visual_identity": {
+    "logo": {
+      "description": "Details and rules for using the brand's logos, including primary, secondary, monochrome, and icons.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/visual_identity/logo.json"
+    },
+    "colours": {
+      "description": "The brand's official colour palette with hex codes, RGB values, CMYK values, and usage guidelines.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/visual_identity/colours.json"
+    },
+    "typography": {
+      "description": "Specifications for the brand's fonts, sizes, styles, line heights, and spacing.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/visual_identity/typography.json"
+    },
+    "imagery": {
+      "description": "Guidelines for photography, illustrations, and imagery styles that represent the brand’s identity.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/visual_identity/imagery.json"
+    },
+    "photography": {
+      "description": "Comprehensive guidelines for how photography should represent the brand's style and composition.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/visual_identity/photography.json"
+    },
+    "iconography": {
+      "description": "Rules and specifications for using icons, including sizes, styles, colours, and contexts of use.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/visual_identity/iconography.json"
+    },
+    "patterns_and_textures": {
+      "description": "Approved patterns, textures, and background elements, with details on how to apply them.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/visual_identity/patterns_and_textures.json"
+    },
+    "animations_and_motion": {
+      "description": "Guidelines for using animations and motion graphics, including styles and speed.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/visual_identity/animations_and_motion.json"
+    },
+    "illustrations": {
+      "description": "Details about the brand's illustration style, including line weights and colours.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/visual_identity/illustrations.json"
+    },
+    "infographics": {
+      "description": "Rules for creating infographics, including colour schemes and typography.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/visual_identity/infographics.json"
+    },
+    "layout_and_grids": {
+      "description": "Guidelines for using grids, margins, padding, and spacing for consistent layouts.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/visual_identity/layout_and_grids.json"
+    },
+    "buttons_and_ctas": {
+      "description": "Specifications for button styles, CTA elements, hover effects, and interaction states.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/visual_identity/buttons_and_ctas.json"
+    },
+    "charts_and_graphs": {
+      "description": "Instructions for maintaining consistency in data visualisations.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/visual_identity/charts_and_graphs.json"
+    },
+    "backgrounds": {
+      "description": "Approved background styles, colours, gradients, and patterns.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/visual_identity/backgrounds.json"
+    },
+    "video_style": {
+      "description": "Guidelines for video content, including resolution, frame rates, and overlay styles.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/visual_identity/video_style.json"
+    },
+    "borders_and_lines": {
+      "description": "Rules for using borders, lines, and dividers, including thickness and colour.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/visual_identity/borders_and_lines.json"
+    },
+    "shadow_and_lighting": {
+      "description": "Guidelines for applying shadows and lighting effects.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/visual_identity/shadow_and_lighting.json"
+    },
+    "image_filters": {
+      "description": "Specifications for using filters and overlays on imagery.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/visual_identity/image_filters.json"
+    },
+    "watermarks": {
+      "description": "Instructions on how and where to apply watermarks to protect brand assets.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/visual_identity/watermarks.json"
+    },
+    "3d_elements": {
+      "description": "Guidelines for incorporating 3D elements, including style and interaction with other elements.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/visual_identity/3d_elements.json"
+    },
+    "brand_environment_designs": {
+      "description": "Standards for representing the brand identity in physical spaces like offices and events.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/visual_identity/brand_environment_designs.json"
+    },
+    "icon_sets": {
+      "description": "Details about specific icon sets, including styles, sizes, and usage contexts.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/visual_identity/icon_sets.json"
+    }
+  },
+  "verbal_identity": {
+    "tone_of_voice": {
+      "description": "Defines how the brand's tone should be expressed, including descriptors and examples across all communication channels.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/verbal_identity/tone_of_voice.json"
+    },
+    "key_vocabulary": {
+      "description": "Preferred and prohibited terms that align with the brand’s messaging, ensuring consistency in language across all content.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/verbal_identity/key_vocabulary.json"
+    },
+    "boilerplate_copy": {
+      "description": "Pre-approved text for specific use cases, such as 'About Us' sections, product descriptions, and company overviews.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/verbal_identity/boilerplate_copy.json"
+    },
+    "storytelling_guidelines": {
+      "description": "Principles for narrating the brand’s story, ensuring consistent themes, tone, and message delivery.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/verbal_identity/storytelling_guidelines.json"
+    },
+    "social_media_guidelines": {
+      "description": "Rules for maintaining brand tone and voice across different social media platforms, including hashtags, engagement, and post types.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/verbal_identity/social_media_guidelines.json"
+    },
+    "email_signature_templates": {
+      "description": "Templates and guidelines for creating consistent email signatures for employees, including sign-offs, taglines, and contact details.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/verbal_identity/email_signature_templates.json"
+    },
+    "customer_service_scripts": {
+      "description": "Pre-approved phrases and guidelines to maintain brand tone during customer interactions.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/verbal_identity/customer_service_scripts.json"
+    },
+    "presentation_speech_guidelines": {
+      "description": "Recommendations for maintaining brand tone in spoken presentations, webinars, and public speaking engagements.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/verbal_identity/presentation_speech_guidelines.json"
+    },
+    "content_pillars": {
+      "description": "Core themes or topics that guide all content creation, ensuring alignment with the brand's values and messaging strategy.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/verbal_identity/content_pillars.json"
+    },
+    "seo_keywords": {
+      "description": "A list of primary and secondary SEO keywords that should be integrated into brand messaging.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/verbal_identity/seo_keywords.json"
+    },
+    "advertising_copy_guidelines": {
+      "description": "Instructions for creating ad copy that aligns with the brand's tone, style, and messaging for different advertising platforms.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/verbal_identity/advertising_copy_guidelines.json"
+    },
+    "press_release_templates": {
+      "description": "Pre-defined templates and guidelines for writing press releases that reflect the brand's voice and key messages.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/verbal_identity/press_release_templates.json"
+    },
+    "blog_post_tone": {
+      "description": "Specific guidelines for the tone, style, and structure of blog posts.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/verbal_identity/blog_post_tone.json"
+    },
+    "newsletter_tone": {
+      "description": "Guidelines for maintaining the brand's tone and style in newsletters and email campaigns.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/verbal_identity/newsletter_tone.json"
+    },
+    "faq_guidelines": {
+      "description": "Instructions on how to maintain brand tone and vocabulary in frequently asked questions or support documents.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/verbal_identity/faq_guidelines.json"
+    },
+    "video_script_guidelines": {
+      "description": "Rules for maintaining brand voice and messaging in video scripts, voiceovers, or subtitles.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/verbal_identity/video_script_guidelines.json"
+    },
+    "podcast_transcription_tone": {
+      "description": "Guidelines for how the brand's tone should be reflected in podcast transcriptions or summaries.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/verbal_identity/podcast_transcription_tone.json"
+    },
+    "testimonial_format": {
+      "description": "Standardised phrasing and tone for presenting customer testimonials and case studies.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/verbal_identity/testimonial_format.json"
+    },
+    "quotes_and_taglines": {
+      "description": "Approved quotes, taglines, and short-form messaging that reflect the brand’s identity.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/verbal_identity/quotes_and_taglines.json"
+    },
+    "internal_communications_tone": {
+      "description": "Guidelines for how the brand's tone should be reflected in internal communications such as emails, memos, and employee newsletters.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/verbal_identity/internal_communications_tone.json"
+    },
+    "external_communications_tone": {
+      "description": "Rules for maintaining brand tone in external communications like PR statements and investor relations.",
+      "s3_url": "https://YOUR_BUCKET_NAME.s3.YOUR_REGION.amazonaws.com/verbal_identity/external_communications_tone.json"
+    }
+  }
+}
