@@ -1,0 +1,63 @@
+{
+    "brand_name": "EcoFriendly Co.",
+    "last_updated": "2024-09-28",
+    "documents": [
+        {
+            "id": "visual-identity",
+            "title": "Visual Identity Guidelines",
+            "description": "Guidelines for the brand's visual elements, including logos, colours, typography, and imagery.",
+            "category": "Visual Identity",
+            "s3_url": "https://s3.amazonaws.com/ecofriendlyco/brand-guidelines/visual-identity.json",
+            "keywords": [
+                "visual",
+                "logo",
+                "colour",
+                "typography",
+                "imagery"
+            ],
+            "last_modified": "2024-09-28"
+        },
+        {
+            "id": "verbal-identity",
+            "title": "Verbal Identity Guidelines",
+            "description": "Guidelines on the brand's tone of voice, messaging framework, and vocabulary.",
+            "category": "Verbal Identity",
+            "s3_url": "https://s3.amazonaws.com/ecofriendlyco/brand-guidelines/verbal-identity.json",
+            "keywords": [
+                "tone of voice",
+                "messaging",
+                "vocabulary",
+                "verbal"
+            ],
+            "last_modified": "2024-09-28"
+        },
+        {
+            "id": "application",
+            "title": "Application Guidelines",
+            "description": "Guidelines for applying brand elements across different contexts and mediums.",
+            "category": "Application",
+            "s3_url": "https://s3.amazonaws.com/ecofriendlyco/brand-guidelines/application.json",
+            "keywords": [
+                "application",
+                "social media",
+                "presentations",
+                "advertisements"
+            ],
+            "last_modified": "2024-09-28"
+        },
+        {
+            "id": "strategy",
+            "title": "Brand Strategy",
+            "description": "Details about the brand's mission, vision, values, and positioning.",
+            "category": "Strategy",
+            "s3_url": "https://s3.amazonaws.com/ecofriendlyco/brand-guidelines/strategy.json",
+            "keywords": [
+                "mission",
+                "vision",
+                "values",
+                "strategy"
+            ],
+            "last_modified": "2024-09-28"
+        }
+    ]
+}

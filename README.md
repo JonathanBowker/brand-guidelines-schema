@@ -105,10 +105,6 @@ BrandoLang allows for **versioning**, meaning you can track changes to your bran
 
 By using BrandoLang, you can ensure that your brand's identity is **consistent, cohesive, and adaptable** across every touchpoint, whether it's human-created or AI-generated content.
 
-
-
-Here's the updated **BrandoLang Syntax Guide** with the addition of `footer_image` details for LinkedIn articles under the **visual elements** section.
-
 ---
 
 # **BrandoLang Syntax Guide**
