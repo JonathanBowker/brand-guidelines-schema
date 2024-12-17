@@ -17,8 +17,8 @@ BrandoLang addresses these challenges by offering:
 
 BrandoLang is built around five key components, each representing a crucial aspect of brand identity:
 
-### 1. **Strategy**
-The Strategy component defines the brand's **mission, vision, values, positioning**, and **messaging frameworks**. It includes elements such as the **3Cs** (Company, Customers, Competitors), ensuring that brand positioning is aligned with the organisation's strengths, customer needs, and market differentiation.
+### 1. **Brand Positioning**
+Brand Positioning component defines the brand's **mission, vision, values, positioning**, and **messaging frameworks**. It includes elements such as the **3Cs** (Company, Customers, Competitors), ensuring that brand positioning is aligned with the organisation's strengths, customer needs, and market differentiation.
 
 - **Mission**: The overarching purpose of the brand.
 - **Vision**: The long-term aspirations and goals.
@@ -29,7 +29,7 @@ The Strategy component defines the brand's **mission, vision, values, positionin
 Visual Identity covers all aspects of how the brand looks across different platforms, including **logos, color palettes, typography**, and **imagery styles**. This ensures visual consistency and recognisability across all touchpoints.
 
 - **Logos**: Guidelines for using primary, secondary, and monochrome logos.
-- **Colors**: Approved color palettes with hex codes, RGB values, and usage contexts.
+- **Colours**: Approved colour palettes with hex codes, RGB values, and usage contexts.
 - **Typography**: Fonts, sizes, line heights, and usage rules.
 - **Imagery**: Photography styles, graphic elements, and patterns.
 
